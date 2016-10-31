@@ -1,6 +1,0 @@
-com\spring\dao\ProductDaoImpl.class
-com\spring\mvc\ProductController.class
-com\spring\dao\ProductDao.class
-com\spring\services\ProductService.class
-com\spring\model\Product.class
-com\spring\services\ProductServiceImpl.class
