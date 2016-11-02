@@ -12,29 +12,38 @@
 </head>
 <body>
 <%@ include file="/WEB-INF/views/header.jsp" %>
-<blockquote>This would be your Home page. Use the Nav-bar to navigate forth.</blockquote>
-<p>click on "about us"</p>
+<center>
+<font face="arial narrow" size="5">
+<blockquote><h2>Hello there and Welcome!...</h2></blockquote>
+<p>We have here a great set of deals for the flower sets that you wish to choose, from our one and unique online flower shop.
+You may start over by signing up and then log in to purchase from our variety of brand new items.</p>
+<br>
+<br>
+<h3>Most of the deals available:</h3>
+<br>
+</font>
+</center>
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">MAX FLOWER SET DEAL</div>
+        <div class="panel-body"><img src="http://localhost:8080/flowershop/resources/images/14.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy 5 flower sets and get a gift card</div>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="panel panel-danger">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-heading">THANKSGIVING DEAL</div>
+        <div class="panel-body"><img src="http://localhost:8080/flowershop/resources/images/16.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy Thanksgiving flower sets and get a Chocolate eggs</div>
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="panel panel-success">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">HALL DECORATION DEAL</div>
+        <div class="panel-body"><img src="http://localhost:8080/flowershop/resources/images/13.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy Hall Decoration sets and get an extra set of confetti</div>
       </div>
     </div>
   </div>
@@ -43,24 +52,24 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">BIRTHDAY GREETING DEAL</div>
+        <div class="panel-body"><img src="http://localhost:8080/flowershop/resources/images/9.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy Birthday greeting bouquet and get an assorted set of chocolates</div>
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">SYMPATHY DEAL</div>
+        <div class="panel-body"><img src="http://localhost:8080/flowershop/resources/images/10.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy a Sympathy bouquet and get a greeting card of your choice</div>
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">GET WELL SOON DEAL</div>
+        <div class="panel-body"><img src="http://localhost:8080/flowershop/resources/images/8.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Buy a Get well soon bouquet and get a greeting card of the same</div>
       </div>
     </div>
   </div>

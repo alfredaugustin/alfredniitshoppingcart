@@ -25,10 +25,11 @@ Search: <input type="text" ng-model="searchCondition" placeholder="Search Flower
 	<table border="0" class="table table-striped table-hover">
 	<thead>
 		<tr>
-			<th width="20%"></th>
+			<th width="20%"><!--  --></th>
 			<th>F_ID</th>
 			<th>NAME</th>
 			<th>VENDOR</th>
+			<th>PRICE</th>
 			<th>CATEGORY</th>
 			<th>View <security:authorize access="hasRole('ROLE_ADMIN')">/ Delete / Edit</security:authorize></th>
 		</tr>
@@ -37,10 +38,11 @@ Search: <input type="text" ng-model="searchCondition" placeholder="Search Flower
 <tbody>
 <tr ng-repeat="f in flowers | filter:searchCondition">
 	<c:url value="resources/images/{{f.fid}}.png" var="src" />
-		<td ><img src="${src}" style="width: 50%" align="middle" /></td>
+		<td ><img src="${src}" style="width: 100%" align="middle" /></td>
 		<td>{{f.fid}}</td>
 		<td>{{f.name}}</td>
 		<th>{{f.vendor}}</th>
+		<th><i class="fa fa-inr" style="font-size:15px"></i> {{f.price}}</th>
 		<td>{{f.category.categoryName}}</td>
 		<td><a href="getFlowerByFid/{{f.fid}}"><span class="glyphicon glyphicon-info-sign"></span></a>
 		<security:authorize  access="hasRole('ROLE_ADMIN')">
