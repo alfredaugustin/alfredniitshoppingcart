@@ -6,4 +6,4 @@ The major centrepieces of this web application are the implementations of the **
 
 The programming tool used is **Eclipse IDE** and the programming language used is **Java**, alongside **H2 Database**, **Spring and Hibernate frameworks** at it's backend. The frontend makes use of **HTML, CSS, Bootstrap and AngularJS**. The project is thus combined in a build tool called **Maven** alongside **JUnit**, all together in a nutshell.
 
-To view the detailed documentation of the project, click here
+To view the detailed documentation:closed_book: of the project, [click here](https://github.com/alfredaugustin/alfredniitcollaborationportal/wiki).
