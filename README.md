@@ -5,3 +5,5 @@ The project entitled ‘**Flowershop**’ is an E-Commerce website where the use
 The major centrepieces of this web application are the implementations of the **Virtual Shopping cart, a guided Web-flow for a Check-out procedure for having the products purchased, and the continuous updation of data**.
 
 The programming tool used is **Eclipse IDE** and the programming language used is **Java**, alongside **H2 Database**, **Spring and Hibernate frameworks** at it's backend. The frontend makes use of **HTML, CSS, Bootstrap and AngularJS**. The project is thus combined in a build tool called **Maven** alongside **JUnit**, all together in a nutshell.
+
+To view the detailed documentation of the project, click here
